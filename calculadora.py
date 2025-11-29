@@ -4,7 +4,6 @@ soma = a + b
 subtracao = a - b
 multiplicacao = a*b
 divisao = a/b
-potenciacao = a ** b
 print(f"a potenciação é {potenciacao}.")
 print(f'A soma é {soma}.')
 print(f'A diferença é {subtracao}.')

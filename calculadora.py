@@ -4,10 +4,12 @@ soma = a + b
 subtracao = a - b
 multiplicacao = a*b
 divisao = a/b
+potencia = a**b
 print(f'A soma é {soma}.')
 print(f'A diferença é {subtracao}.')
 print(f'A multiplicação é {multiplicacao}.')
 print(f'A divisão é {divisao}.')
+<<<<<<< HEAD
 print(f'A porcentagem é {porcentagem}')
 from flask import Flask, render_template, request
 
@@ -29,3 +31,6 @@ def somar():
 if __name__ == "__main__":
     app.run(debug=True)
     
+=======
+print(f'A potência é {potencia}.')
+>>>>>>> e88844fc0c99be483848007f4e75640f73da0d1c
